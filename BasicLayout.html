@@ -1,4 +1,7 @@
 <html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <head>
         <style>
             #wrap {
@@ -19,95 +22,98 @@
             #Header{
                 background-color: #0d7962;
                 color:#fff;
+                padding-top: 25px;
+                padding-bottom: 25px;
                 width: 980px;
-                height: 140px;
-                position: absolute;
+                height: 90px;
+                position: relative;
                 text-align: center;
             }
             #Sidebar{
                 background-color: #0d7962;
                 color:#fff;
+                padding-top: 200px;
+                padding-bottom: 200px;
                 width: 270px;
-                height: 450px;
-                position: absolute;
+                height: 50px;
+                top: 15px;
+                position: relative;
                 text-align: center;
-                display: flex;
+                display: inline-block;
                 justify-content: center;
                 align-items: center;
-                top: 160px;
             }
             #Content{
                 background-color: #0d7962;
                 color:#fff;
+                padding-top: 200px;
+                padding-bottom: 200px;
                 width: 690px;
-                height: 450px;
-                position: absolute;
+                height: 50px;
+                top: 15px;
+                right: -15px; 
+                position: relative;
                 text-align: center;
-                display: flex;
+                display: inline-block;
                 justify-content: center;
                 align-items: center;
-                top: 160px;
-                left: 455px;
+                
             }
             #Footer{
                 background-color: #0d7962;
                 color:#fff;
                 width: 980px;
                 height: 70px;
-                position: absolute;
+                position: relative;
                 text-align: center;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 bottom: -30px;
             }
-            #snum{
-                position: absolute;
-                top: 240px;
-            }
-            #cnum{
-                position: absolute;
-                top: 240px;
-            }
             #fnum{
-                position: absolute;
-                bottom: -1px;
+                position:absolute;
+                bottom: 1px;
             }
 
             #Header:hover{
                 background: linear-gradient(to left, rgba(229,39,146,1) 0%,rgba(48,211,179,1) 12%,rgba(61,255,103,1) 25%,rgba(216,216,216,1) 39%,rgba(0,115,216,1) 49%,rgba(234,91,72,1) 50%,rgba(219,198,92,1) 51%,rgba(155,62,34,1) 60%,rgba(26,53,56,1) 76%,rgba(16,38,19,1) 91%,rgba(11,22,22,1) 100%);
                 width: 980px;
-                height: 140px;
-                position: absolute;
+                height: 90px;
+                position: relative;
             }
             #Sidebar:hover{
                 background: linear-gradient(to left, rgba(229,39,146,1) 0%,rgba(48,211,179,1) 12%,rgba(61,255,103,1) 25%,rgba(216,216,216,1) 39%,rgba(0,115,216,1) 49%,rgba(234,91,72,1) 50%,rgba(219,198,92,1) 51%,rgba(155,62,34,1) 60%,rgba(26,53,56,1) 76%,rgba(16,38,19,1) 91%,rgba(11,22,22,1) 100%);
+                padding-top: 200px;
+                padding-bottom: 200px;
                 width: 270px;
-                height: 450px;
-                position: absolute;
+                height: 50px;
+                top: 15px;
+                position: relative;
                 text-align: center;
-                display: flex;
+                display: inline-block;
                 justify-content: center;
                 align-items: center;
-                top: 160px;
             }
             #Content:hover{
                 background: linear-gradient(to left, rgba(229,39,146,1) 0%,rgba(48,211,179,1) 12%,rgba(61,255,103,1) 25%,rgba(216,216,216,1) 39%,rgba(0,115,216,1) 49%,rgba(234,91,72,1) 50%,rgba(219,198,92,1) 51%,rgba(155,62,34,1) 60%,rgba(26,53,56,1) 76%,rgba(16,38,19,1) 91%,rgba(11,22,22,1) 100%);
+                padding-top: 200px;
+                padding-bottom: 200px;
                 width: 690px;
-                height: 450px;
-                position: absolute;
+                height: 50px;
+                top: 15px;
+                right: -15px; 
+                position: relative;
                 text-align: center;
-                display: flex;
+                display: inline-block;
                 justify-content: center;
                 align-items: center;
-                top: 160px;
-                left: 455px;
             }
             #Footer:hover{
                 background: linear-gradient(to left, rgba(229,39,146,1) 0%,rgba(48,211,179,1) 12%,rgba(61,255,103,1) 25%,rgba(216,216,216,1) 39%,rgba(0,115,216,1) 49%,rgba(234,91,72,1) 50%,rgba(219,198,92,1) 51%,rgba(155,62,34,1) 60%,rgba(26,53,56,1) 76%,rgba(16,38,19,1) 91%,rgba(11,22,22,1) 100%);
                 width: 980px;
                 height: 70px;
-                position: absolute;
+                position: relative;
                 text-align: center;
                 display: flex;
                 justify-content: center;
@@ -131,7 +137,7 @@
                 <p class="FontBig">
                     Sidebar
                 </p>
-                <p1 id="snum" class="FontSmall">
+                <p1 class="FontSmall">
                     270x450
                 </p1>
             </div>
@@ -139,7 +145,7 @@
                 <p class="FontBig">
                     Content
                 </p>
-                <p1 id="cnum" class="FontSmall">
+                <p1 class="FontSmall">
                     690x450
                 </p1>
             </div>
